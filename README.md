@@ -65,3 +65,6 @@ Plot of the hotspot regions in Figure 6 of the article.
 
 ###  ⚙️ Requirements
 
+#### Install required packages :
+
+install.packages(c("extRemes", "fields", "spam", "Matrix", "LaplacesDemon", "ggplot", "cowplot", "ggmap", "ExceedanceTools"))
