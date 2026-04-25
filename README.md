@@ -4,7 +4,7 @@ This repository contains the code and data underlying the article :
 
  ## Estimating Causal Attribution of Anthropogenic Forcing on High-Temperature Extremes Usinga Latent Gaussian Spatial Model 
 
-The description of all attached files is provided below :
+### 📂 The description of all attached files is provided below :
 
 #### Likelihood_estimation.R
 
@@ -61,3 +61,7 @@ Plot of trend and trend difference in Figure 5 of the article.
 #### Figure_6_Hotspot.R
 
 Plot of the hotspot regions in Figure 6 of the article.
+
+
+###  ⚙️ Requirements
+
