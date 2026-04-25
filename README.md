@@ -28,14 +28,20 @@ Generating the entries for the table 1 in the article.
 
 #### Figure_1_corrmat_EDA.R
 
-Plot of the heatmap of the correlation matrix in figure 1 in the artice.
+Plot of the heatmap of the correlation matrix in Figure 1 of the artice.
 
 #### Figure_1_variogram_EDA.R
 
-Plot of variogram corresponding to the latent variables in figure 1 in the article.
+Plot of variogram corresponding to the latent variables in Figure 1 of the article.
 
 #### Figure_2_trans_xi.R
 
 Plot of the characterisation of transformed shape parameter.
 
+#### Figure_3_causal_effect.R
 
+Plot of grid wise estiamted causal effect along with the standard errors in Figure 3 of the article.
+
+#### Figure_4_causal_effect.R
+
+Plot of grid wise estiamted causal effect along with the standard errors during the pre-industrial period in Figure 4 of the article.
