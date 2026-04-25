@@ -71,5 +71,6 @@ install.packages(c("extRemes", "fields", "spam", "Matrix", "LaplacesDemon", "ggp
 
 #### Instruction for installing evd package :
 
+- Download the source package.
 - Replace the provided bvfit.R with the source code of evd package.
 - Install the modified evd package from the assigned local path.
