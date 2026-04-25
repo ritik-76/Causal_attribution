@@ -1,7 +1,7 @@
-load("Estimated_eta_bootstrap.RData")
-load("Information_Matrix.RData")
+#load("Estimated_eta_bootstrap.RData")
+#load("Information_Matrix.RData")
 
-#source("Likelihood_estimation.R")
+source("Likelihood_estimation.R")
 ######################## TRANSFORMATION OF PARAMETER ###########################
 
 t <- c(1850:2014)
