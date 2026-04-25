@@ -38,10 +38,26 @@ Plot of variogram corresponding to the latent variables in Figure 1 of the artic
 
 Plot of the characterisation of transformed shape parameter.
 
+#### Table_2_gamma_posterior.R
+
+Posterior summaries of gamma in Table 2 of the article.
+
+#### Table_3_Posterior_diag.R
+
+Diagnostics of approximate posterior samples of gamma in Table 3 of the article. 
+
 #### Figure_3_causal_effect.R
 
-Plot of grid wise estiamted causal effect along with the standard errors in Figure 3 of the article.
+Plot of grid wise estimated causal effect along with the standard errors in Figure 3 of the article.
 
 #### Figure_4_causal_effect.R
 
-Plot of grid wise estiamted causal effect along with the standard errors during the pre-industrial period in Figure 4 of the article.
+Plot of grid wise estimated causal effect along with the standard errors during the pre-industrial period in Figure 4 of the article.
+
+#### Figure_5_trend_plot.R
+
+Plot of trend and trend difference in Figure 5 of the article.
+
+#### Figure_6_Hotspot.R
+
+Plot of the hotspot regions in Figure 6 of the article.
