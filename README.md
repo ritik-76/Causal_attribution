@@ -69,7 +69,7 @@ Plot of the hotspot regions in Figure 6 of the article.
 
 install.packages(c("extRemes", "fields", "spam", "Matrix", "LaplacesDemon", "ggplot", "cowplot", "ggmap", "ExceedanceTools", "coda"))
 
-#### Instruction for installing evd package
+#### Instruction for installing evd package :
 
-- Replace bvfit.R with the source code of evd package.
+- Replace the provided bvfit.R with the source code of evd package.
 - Install the modified evd package from the assigned local path.
