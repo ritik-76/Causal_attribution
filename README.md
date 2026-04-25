@@ -10,4 +10,6 @@ The description of all attached files is provided below :
 
 Likelihood estimates of the latent variables.
 
-### Model_component.R
+### Model_components.R
+
+For creating the necessary 
