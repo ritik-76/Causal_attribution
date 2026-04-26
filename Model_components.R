@@ -14,14 +14,19 @@ for ( i in 1:ncol(eta_hat_mat)){
 }
 A.inv <- as.spam(A.inv)
 
+c.phi <- 0.005
+b.phi <- 0.25 * (1/c.phi) * (1- (0.25)^ c.phi)
+a.phi <- -0.25 - (b.phi * log( (0.25)^c.phi / (1- (0.25)^c.phi)))
+
+h1.si <- function(si){
+  a.phi + b.phi * log( (si+0.5)^c.phi / (1- (si+0.5)^c.phi))
+}
+
 eta_hat_mat[5,]<- log(eta_hat_mat[5,])
 eta_hat_mat[6,]<- h1.si(eta_hat_mat[6,])
 eta_hat_mat[7,]<-log(eta_hat_mat[7,])
 
 ########################### BLOCK DIAGONAL MATRIX ##############################
-c.phi <- 0.005
-b.phi <- 0.25 * (1/c.phi) * (1- (0.25)^ c.phi)
-a.phi <- -0.25 - (b.phi * log( (0.25)^c.phi / (1- (0.25)^c.phi)))
 
 
 g.phi.der <- function(phi){
