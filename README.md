@@ -12,7 +12,7 @@ Generalized Likelihood estimates of the latent variables.
 
 #### Model_components.R
 
-For creating the necessary 
+For creating the necessary components of the overall model. 
 
 #### Update_MCMC.R
 
