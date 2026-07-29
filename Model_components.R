@@ -68,7 +68,7 @@ elevs <- as.data.frame(elevs)
 mean.sea.dist <- as.data.frame(read.csv("USA_1deg_mean_sea_distance.csv"))
 
 for ( i in 1:length(locs$lon)){
-  Design_Mat_list[[i]] <- kronecker(diag(7), t(c(1,locs$lon[i],locs$lat[i], 
+  Design_Mat_list[[i]] <- kronecker(diag(7), t(c(locs$lon[i],locs$lat[i], 
                                                  elevs$mean_elev[i],
                                                  elevs$sd_elev[i],
                                                  mean.sea.dist$mean_sea_dist_m[i])))
